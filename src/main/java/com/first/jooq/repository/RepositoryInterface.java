@@ -1,4 +1,4 @@
-package com.first.jooq.service;
+package com.first.jooq.repository;
 import java.util.List;
 
 public interface RepositoryInterface<T> {

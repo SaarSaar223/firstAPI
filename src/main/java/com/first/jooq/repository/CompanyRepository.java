@@ -1,4 +1,4 @@
-package com.first.jooq.service;
+package com.first.jooq.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.jooq.DSLContext;

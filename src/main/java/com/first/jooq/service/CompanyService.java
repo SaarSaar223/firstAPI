@@ -2,6 +2,8 @@ package com.first.jooq.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.first.jooq.repository.CompanyRepository;
 import com.tej.JooQDemo.jooq.sample.model.tables.pojos.Company;
 import java.util.List;
 
@@ -17,5 +19,4 @@ public class CompanyService implements ServiceInterface<Company>{
     public List<Company> getAllObjects(){
         return compRep.getAll();
     }
-    
 }
